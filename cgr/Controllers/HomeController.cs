@@ -2,15 +2,19 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using cgr.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace cgr.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index()
+        public ViewResult Index()
         {
-            return View();
+            var model = new ProductRepositroy();
+            model.AddToDictionary();
+
+            return View(model);
         }
     }
 }

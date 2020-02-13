@@ -9,8 +9,8 @@ namespace cgr.Views.Home
 {
     public class IndexModel : PageModel
     {
-        public void OnGet()
+        /*public void OnGet()
         {
-        }
+        }*/
     }
 }

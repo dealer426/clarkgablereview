@@ -1,4 +1,6 @@
-﻿using System;
+﻿using cgr.Controllers;
+using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using Xunit;
