@@ -32,9 +32,9 @@ namespace cgr.Models
             dictionaryProducts.Add(secondProduct.Id, secondProduct);
         }
 
-        public void ReturnDictionary()
+        public Dictionary<int, ProductModel> ReturnDictionary()
         {
-
+            return dictionaryProducts;
         }
 
     }

@@ -13,6 +13,7 @@ namespace cgr.Controllers
         {
             var model = new ProductRepositroy();
             model.AddToDictionary();
+            model.ReturnDictionary();
 
             return View(model);
         }
